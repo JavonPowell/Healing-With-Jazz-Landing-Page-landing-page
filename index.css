@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body{
+    font-family: 'Space Mono',monospace;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.first-section{
+    background-color: rgb(48, 17, 17);
+    flex-direction: column;
+}
+.header-link{
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-left,.navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(243, 243, 243);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.content-right{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       width: 50%;
+    margin-left: 20%;
+}
+.content-left{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      justify-content: center;
+      margin-left: 150px;
+}
+img{
+    margin-bottom: 50px;
+}
+.p-first{
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+}
+
+.sign-up-first-section{
+    background-color: rgb(243, 243, 243);
+    color: rgb(48, 17, 17);
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    border: 1px;
+}
+.second-section{
+    background-color: white;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: Bolder;
+    color: rgb(48, 17, 17);
+    text-align: center;
+}
+
+.row-of-boxes{
+    display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   max-width: 85%;
+   margin: 100px;
+}
+.box-brown-blues{
+    border-radius: 2px ;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(48, 17, 17) ;
+}
+.box-brown-syncopation{
+    border-radius: 2px ;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(48, 17, 17) ;
+}
+.box-brown-swing{
+    border-radius: 2px ;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(48, 17, 17) ;
+}
+.box-brown-creative-freedom{
+    border-radius: 2px ;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(48, 17, 17) ;
+}
+.box-brown{
+    border-radius: 4px ;
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(48, 17, 17) ;
+}
+.blues-image{
+   height: 100%;
+   object-fit: contain;
+}
+.p-second{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(48, 17, 17);
+}
+.third-section{
+    height: 200px;
+    text-align: center;
+}
+
+h3{
+    font-weight:bolder ;
+    color:rgb(243, 243, 243);
+}
+p{
+    font-weight: bolder;
+    color: rgb(243, 243, 243);
+}
+.fourth-section{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brown-container{
+    background-color: rgb(48, 17, 17);
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 80%;
+    margin-left: 50px;
+}
+h4{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(243, 243, 243);
+}
+.p-third{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(243, 243, 243);
+}
+.sign-up-fourth-section{
+    background-color: rgb(243, 243, 243);
+    color: rgb(48, 17, 17);
+    border-radius: 10px;
+    width: 200%;
+    height: 30%;
+    border: 1px;
+    margin-top: 20%;
+    margin-right: 60%;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(48, 17, 17);
+}
